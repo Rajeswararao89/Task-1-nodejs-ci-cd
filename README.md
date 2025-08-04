@@ -50,12 +50,14 @@ You can also pull and run the app directly:
 docker pull rajeshwararao78/nodejs-ci-cd-demo
 docker run -p 8080:8080 rajeshwararao78/nodejs-ci-cd-demo
 
-## 📸 Screenshots
+👨‍💻 Author
+Rajeswara Rao
+CI/CD Task for Internship — Completed on: August 4, 2025
 
-### ✅ Home Route (`/`)
-![Home Page](./169f85a9-a337-4e9f-8f64-ff1cb510d775.png)
+📬 Contact Information
+If you have questions, suggestions, or would like to collaborate:
 
----
-
-### ✅ Health Check (`/health`)
-![Health Check](./725a77de-d2d1-4086-bd92-ffb0f2305f96.png)
+Rajeswara Rao
+📧 Email: rajeswararao688@gmail.com
+🔗 GitHub: https://github.com/Rajeswararao89
+🐳 DockerHub: https://hub.docker.com/u/rajeswararao89
