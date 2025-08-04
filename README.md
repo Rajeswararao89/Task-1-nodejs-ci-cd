@@ -1,39 +1,61 @@
-# íº€ Node.js CI/CD Product API
+# ğŸš€ Node.js CI/CD Product API
 
-A professional RESTful API built with Node.js and Express, containerized with Docker, and deployed using GitHub Actions.
+A fast, lightweight RESTful API built with Node.js and Express, containerized using Docker, and fully automated with a GitHub Actions CI/CD pipeline. This project demonstrates modern DevOps practices by integrating development, testing, containerization, and deployment.
 
-## í·© Features
+---
 
-- Express.js web app
-- In-memory product storage (no DB)
-- REST API routes
-- Dockerized for easy deployment
-- CI/CD automation with GitHub Actions
+## ğŸ“– Description
 
-## í·ª API Endpoints
+This project serves as a demonstration of a complete CI/CD pipeline for a simple web application. It features a REST API for managing product data, written in Express.js. The application is containerized using Docker and continuously built, tested, and deployed through GitHub Actions.
 
-| Method | Endpoint       | Description              |
-|--------|----------------|--------------------------|
-| GET    | `/`            | Welcome message          |
-| GET    | `/health`      | Health check             |
-| GET    | `/products`    | List all products        |
-| POST   | `/products`    | Add a product (JSON body)|
 
-### Example POST `/products` body:
-```json
-{
-  "name": "Keyboard",
-  "price": 200
-}
-í»  Tech Stack
-Node.js
+---
 
-Express.js
+## ğŸŒŸ Features
 
-Docker
+- âš¡ RESTful API endpoints for product data
+- ğŸ“¦ Dockerized application for consistent deployment
+- ğŸ” GitHub Actions CI/CD pipeline:
+  - Auto builds
+  - Runs tests
+  - Pushes Docker image to DockerHub
+- ğŸ©º Health check route (`/health`)
+- ğŸ’¬ JSON-based API responses
+- ğŸš€ Runs on port `8080` (can be changed easily)
+- ğŸ’» Compatible with Docker Desktop, Linux, WSL, or Vagrant
 
-GitHub Actions (CI/CD)
+---
 
-í±¨â€í²» Author
-Rajeswara Rao
-CI/CD Task for Internship â€” Completed on: August 4, 2025
+## ğŸ›  Installation Instructions
+
+### âœ… Prerequisites
+
+- [Node.js](https://nodejs.org/en/) v18+
+- [Docker](https://www.docker.com/)
+- [Git](https://git-scm.com/)
+- A GitHub account (for CI/CD setup)
+- DockerHub account (for image hosting)
+
+---
+
+### ğŸ“¥ Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/nodejs-ci-cd-demo.git
+cd nodejs-ci-cd-demo
+
+ğŸ³ DockerHub Image
+You can also pull and run the app directly:
+
+docker pull rajeshwararao78/nodejs-ci-cd-demo
+docker run -p 8080:8080 rajeshwararao78/nodejs-ci-cd-demo
+
+## ğŸ“¸ Screenshots
+
+### âœ… Home Route (`/`)
+![Home Page](./169f85a9-a337-4e9f-8f64-ff1cb510d775.png)
+
+---
+
+### âœ… Health Check (`/health`)
+![Health Check](./725a77de-d2d1-4086-bd92-ffb0f2305f96.png)
