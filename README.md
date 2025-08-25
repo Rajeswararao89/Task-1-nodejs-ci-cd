@@ -28,10 +28,10 @@ The CI/CD pipeline is defined inside:
 ## 🔹 Proof of Work
 
 ### ✅ GitHub Actions – Workflow Success
-![GitHub Actions Success](screenshots/Screenshot-135.png)
+![GitHub Actions Success](screenshots/Screenshot%20(135).png)
 
 ### ✅ DockerHub – Image Pushed Successfully
-![DockerHub Repo](screenshots/Screenshot-136.png)
+![DockerHub Repo](screenshots/Screenshot%20(136).png)
 
 ---
 
